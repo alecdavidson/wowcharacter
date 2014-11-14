@@ -1,0 +1,12 @@
+11
+Monk = ["Brewmaster", "Mistweaver", "Windwalker"]
+Mage = ["Arcane", "Fire", "Frost"]
+Rogue = ["Assassination", "Combat", "Subtlety"]
+Warrior = ["Arms", "Fury", "Protection"]
+Hunter = ["Beast_Mastery", "Marksmanship", "Survival"]
+Priest = ["Discipline", "Holy", "Shadow"]
+Shaman = ["Elemental", "Enhancement", "Restoration"]
+Death_Knight = ["Blood", "Frost", "Unholy"]
+Warlock = ["Affliction", "Demonology", "Destruction"]
+Druid = ["Balance", "Feral", "Gaurdian", "Restoration"]
+Paladin = ["Holy", "Protection", "Retribution"]

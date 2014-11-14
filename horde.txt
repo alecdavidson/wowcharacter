@@ -1,0 +1,8 @@
+7
+Pandaren
+Goblin
+Blood_Elf
+Orc
+Tauren
+Troll
+Undead

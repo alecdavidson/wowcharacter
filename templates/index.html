@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WOW Character Randomiser</title> 
+		<style>
+			.container { position:relative; padding:0 0 0 55px; }
+			#sidebar {
+				float: left;
+				top:0; bottom:0; left:0;
+				border:1px solid #fff; width:150px; height:140px
+			}
+			#content { 
+				border:1px solid #fff; width:600px;
+				background: #fff;
+				margin:5px 0 5px 0;
+			}
+			#footer { 
+				border:1px solid #fff; width:600px;
+				margin:5px 0 5px 0;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="container" align="center">
+
+			<div id="sidebar" align="sidebar">
+				<a href="mailto:alecdavidson@nau.edu">Contact Alec at alecdavidson@nau.edu</a>
+			</div>
+			
+			<div id="content" align="center">
+				What Faction would you like? (Horde, Alliance, or Both)
+				<form action="/" method="post">
+					<input type="text" name="faction" />
+					<p>
+					How many characters?
+					</p>
+					<input type="text" name="count" />
+					<br>
+					<br>
+					<button type="submit" name="Randomize">Generate</button>
+					<br>
+					<br>
+					<br>
+				{% with messages = get_flashed_messages() %}
+					{% if messages %}
+						Results:
+						<pre>
+							{% for message in messages %}
+{{message}}
+							{% endfor %}
+						</pre>
+					{% endif %}
+				{% endwith %}
+				</form>
+			</div>
+			
+			<div id="footer" align="center">
+				<a href="#top">Back to Top</a>
+				<p>
+				This site is not associated with Blizzard, World Of Warcraft, or any of their affiliates.
+				<p>
+			</div>
+			
+		</div>
+	</body>
+</html>

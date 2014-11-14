@@ -1,0 +1,14 @@
+13
+Pandaren
+Worgen
+Draenei
+Dwarf
+Gnome
+Human
+Knight_Elf
+Goblin
+Blood_Elf
+Orc
+Tauren
+Troll
+Undead
