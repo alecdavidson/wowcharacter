@@ -13,8 +13,8 @@ class View(flask.views.MethodView):
     return flask.render_template('index.html')
   
   def post(self):
-    faction = str(flask.request.form['faction'])
-    count = str(flask.request.form['count'])
+    faction = flask.request.form['faction']
+    count = flask.request.form['count']
 
     wowcharacter.main(faction, count)
     return self.get()

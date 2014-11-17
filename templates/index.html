@@ -29,10 +29,19 @@
 			</div>
 			
 			<div id="content" align="center">
+                <p>
 				What Faction would you like? (Horde, Alliance, or Both)
+                </p>
 				<form action="/" method="post">
-					<input type="text" name="faction" />
+                  <div style="width:150px; text-align:left">
+					<input type="radio" name="faction" value="b" checked> Either Faction
+                    <br>
+                    <input type="radio" name="faction" value="h"> Horde
+                    <br>
+                    <input type="radio" name="faction" value="a"> Alliance
+                    <br>
 					<p>
+                  </div>
 					How many characters?
 					</p>
 					<input type="text" name="count" />
